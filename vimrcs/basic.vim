@@ -59,6 +59,10 @@ command! W execute 'w !sudo tee % > /dev/null' <bar> edit!
 " Set 7 lines to the cursor - when moving vertically using j/k
 set so=7
 
+" Set relative line number
+set number
+set relativenumber
+
 " Avoid garbled characters in Chinese language windows OS
 let $LANG='en' 
 set langmenu=en

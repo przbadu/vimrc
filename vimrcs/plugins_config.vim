@@ -159,6 +159,13 @@ let g:ale_linters = {
 \   'go': ['go', 'golint', 'errcheck']
 \}
 
+" Show these icons for error/warning
+" will make it clear to identify problem areas
+let g:ale_sign_error = '❌'
+let g:ale_sign_warning = '⚠️'
+
+" shortcut to jump between errors
+nmap <silent> <leader>c <Plug>(ale_previous_wrap)
 nmap <silent> <leader>a <Plug>(ale_next_wrap)
 
 " Disabling highlighting
@@ -167,10 +174,15 @@ let g:ale_set_highlights = 0
 " Only run linting when saving the file
 let g:ale_lint_on_text_changed = 'never'
 let g:ale_lint_on_enter = 0
-
+let g:ale_fix_on_save = 1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Git gutter (Git diff)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:gitgutter_enabled=0
 nnoremap <silent> <leader>d :GitGutterToggle<cr>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Vim Emmet
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:user_emmet_leader_key=','

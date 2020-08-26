@@ -196,3 +196,8 @@ nmap <silent> <leader>tv :TestVisit<CR>
 " => Vim Emmet
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:user_emmet_leader_key=','
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => coc.nvim
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:coc_global_extensions = ['coc-solargraph', 'coc-tsserver', 'coc-emmet', 'coc-html', 'coc-json']

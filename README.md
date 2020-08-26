@@ -126,6 +126,12 @@ I recommend reading the docs of these plugins to understand them better. Each pl
 * [vim-javascript](https://github.com/pangloss/vim-javascript)
 * [vim-python-pep8-indent](https://github.com/Vimjas/vim-python-pep8-indent)
 
+## My Plugins
+* [coc-nvim](https://github.com/neoclide/coc.nvim)
+* [emmet-vim](https://github.com/mattn/emmet-vim)
+* [vim-polyglot](https://github.com/sheerun/vim-polyglot)
+* [vim-rails](https://github.com/tpope/vim-rails)
+
 
 ## How to include your own stuff?
 

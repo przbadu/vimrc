@@ -370,6 +370,16 @@ Cope mappings:
     map <leader>p :cp<cr>
 
 
+## My Plugins
+
+- https://github.com/neoclide/coc.nvim 
+- https://github.com/mattn/emmet-vim
+- https://github.com/ryanoasis/vim-devicons
+- https://github.com/sheerun/vim-polyglot
+- https://github.com/tpope/vim-rails
+- https://github.com/bluz71/vim-nightfly-guicolors
+
+
 ## How to uninstall
 Just do following:
 * Remove `~/.vim_runtime`

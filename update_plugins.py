@@ -24,7 +24,6 @@ ctrlp.vim https://github.com/ctrlpvim/ctrlp.vim
 mayansmoke https://github.com/vim-scripts/mayansmoke
 nerdtree https://github.com/scrooloose/nerdtree
 nginx.vim https://github.com/chr4/nginx.vim
-open_file_under_cursor.vim https://github.com/amix/open_file_under_cursor.vim
 tlib https://github.com/vim-scripts/tlib
 vim-addon-mw-utils https://github.com/MarcWeber/vim-addon-mw-utils
 vim-bundle-mako https://github.com/sophacles/vim-bundle-mako
@@ -57,6 +56,16 @@ vim-ruby https://github.com/vim-ruby/vim-ruby
 typescript-vim https://github.com/leafgarland/typescript-vim
 vim-javascript https://github.com/pangloss/vim-javascript
 vim-python-pep8-indent https://github.com/Vimjas/vim-python-pep8-indent
+ack.vim https://github.com/mileszs/ack.vim
+coc.nvim https://github.com/neoclide/coc.nvim
+emmet-vim https://github.com/mattn/emmet-vim
+vim-bundler https://github.com/tpope/vim-bundler
+vim-devicons https://github.com/ryanoasis/vim-devicons
+vim-endwise https://github.com/tpope/vim-endwise
+vim-nightfly-guicolors https://github.com/bluz71/vim-nightfly-guicolors
+vim-polyglot https://github.com/sheerun/vim-polyglot
+vim-rails https://github.com/tpope/vim-rails
+ctrlp_bdelete.vim https://github.com/d11wtq/ctrlp_bdelete.vim
 """.strip()
 
 GITHUB_ZIP = "%s/archive/master.zip"

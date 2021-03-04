@@ -44,6 +44,7 @@ nmap <C-n> <Plug>yankstack_substitute_newer_paste
 """"""""""""""""""""""""""""""
 " => CTRL-P
 """"""""""""""""""""""""""""""
+call ctrlp_bdelete#init()
 let g:ctrlp_working_path_mode = 0
 
 " Quickly find and open a file in the current working directory
@@ -93,7 +94,6 @@ map <leader>nb :NERDTreeFromBookmark<Space>
 map <leader>nf :NERDTreeFind<cr>
 " quit vim if Nerdtree is  last buffer
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
-
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vim-multiple-cursors
@@ -203,3 +203,19 @@ let g:user_emmet_leader_key=','
 " => coc.nvim
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:coc_global_extensions = ['coc-solargraph', 'coc-tsserver', 'coc-emmet', 'coc-html', 'coc-json']
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Vim Emmet
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:user_emet_leader_key=','
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Ack
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+cnoreabbrev Ack Ack!
+nnoremap <Leader>a :Ack!<Space>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Tagbar
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+nmap <F8> :TagbarToggle<CR>

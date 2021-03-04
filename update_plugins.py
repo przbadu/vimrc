@@ -66,6 +66,8 @@ vim-nightfly-guicolors https://github.com/bluz71/vim-nightfly-guicolors
 vim-polyglot https://github.com/sheerun/vim-polyglot
 vim-rails https://github.com/tpope/vim-rails
 ctrlp_bdelete.vim https://github.com/d11wtq/ctrlp_bdelete.vim
+tagbar https://github.com/preservim/tagbar
+vim-rake https://github.com/tpope/vim-rake
 """.strip()
 
 GITHUB_ZIP = "%s/archive/master.zip"

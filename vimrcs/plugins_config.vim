@@ -40,6 +40,11 @@ let g:yankstack_yank_keys = ['y', 'd']
 nmap <C-p> <Plug>yankstack_substitute_older_paste
 nmap <C-n> <Plug>yankstack_substitute_newer_paste
 
+""""""""""""""""""""""""""""""
+" => CTRL-P
+""""""""""""""""""""""""""""""
+call ctrlp_bdelete#init()
+let g:ctrlp_working_path_mode = 0
 
 """"""""""""""""""""""""""""""
 " => CTRL-P
@@ -197,17 +202,13 @@ nmap <silent> <leader>tv :TestVisit<CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Vim Emmet
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:user_emmet_leader_key=','
+let g:user_emet_leader_key='<Tab>'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => coc.nvim
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:coc_global_extensions = ['coc-solargraph', 'coc-tsserver', 'coc-emmet', 'coc-html', 'coc-json']
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Vim Emmet
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:user_emet_leader_key=','
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Ack

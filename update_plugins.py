@@ -67,6 +67,8 @@ vim-rails https://github.com/tpope/vim-rails
 ctrlp_bdelete.vim https://github.com/d11wtq/ctrlp_bdelete.vim
 tagbar https://github.com/preservim/tagbar
 vim-rake https://github.com/tpope/vim-rake
+hvim-rhubarb https://github.com/tpope/vim-rhubarb
+tabnine https://github.com/codota/tabnine-vim
 """.strip()
 
 GITHUB_ZIP = "%s/archive/master.zip"

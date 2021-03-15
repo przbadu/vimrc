@@ -244,9 +244,9 @@ exec 'highlight SignColumn guibg=bg guifg=' . s:green
 exec 'highlight Todo guibg=' . s:yellow . ' guifg=' . s:black
 exec 'highlight SpecialKey guibg=bg guifg=' . s:blue
 if g:nightflyUnderlineMatchParen
-    exec 'highlight MatchParen guibg=bg guifg=' . s:orange . ' gui=underline'
+    exec 'highlight MatchParen guibg=bg gui=underline'
 else
-    exec 'highlight MatchParen guibg=bg guifg=' . s:orange
+    exec 'highlight MatchParen guibg=' . s:regal_blue
 endif
 exec 'highlight Ignore guifg=' . s:blue
 exec 'highlight Underlined guifg=' . s:green . ' gui=none'
@@ -254,7 +254,7 @@ exec 'highlight QuickFixLine guibg=' . s:deep_blue
 exec 'highlight Delimiter guifg=' . s:white
 
 " Neovim only highlight groups
-exec 'highlight Whitespace guifg=' . s:deep_blue
+exec 'highlight Whitespace guifg=' . s:regal_blue
 exec 'highlight TermCursor guibg=' . s:cadet_blue . ' guifg=bg gui=none'
 
 " Color column (after line 80)

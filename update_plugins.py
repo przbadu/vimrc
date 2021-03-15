@@ -68,6 +68,7 @@ tagbar https://github.com/preservim/tagbar
 vim-rake https://github.com/tpope/vim-rake
 hvim-rhubarb https://github.com/tpope/vim-rhubarb
 tabnine https://github.com/codota/tabnine-vim
+dispatch https://github.com/tpope/vim-dispatch
 """.strip()
 
 GITHUB_ZIP = "%s/archive/master.zip"

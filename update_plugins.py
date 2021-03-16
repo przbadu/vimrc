@@ -70,6 +70,7 @@ hvim-rhubarb https://github.com/tpope/vim-rhubarb
 tabnine https://github.com/codota/tabnine-vim
 dispatch https://github.com/tpope/vim-dispatch
 vimux https://github.com/preservim/vimux
+vim-zoom https://github.com/dhruvasagar/vim-zoom
 """.strip()
 
 GITHUB_ZIP = "%s/archive/master.zip"

@@ -34,9 +34,9 @@ if exists('+termguicolors')
     set termguicolors
 endif
 
+set termguicolors
 set background=dark
 " colorscheme peaksea
-set termguicolors
 colorscheme nightfly
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

@@ -165,7 +165,7 @@ set encoding=utf8
 set ffs=unix,dos,mac
 
 " show ruler
-set colorcolumn=72
+set colorcolumn=90
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Files, backups and undo

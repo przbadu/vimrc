@@ -228,7 +228,7 @@ let g:ale_fix_on_save = 1
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Git gutter (Git diff)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:gitgutter_enabled=0
+" let g:gitgutter_enabled=0
 nnoremap <silent> <leader>d :GitGutterToggle<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

@@ -62,6 +62,7 @@ nnoremap <leader>yy "+yy
 vnoremap <leader>p "+p
 nnoremap <leader>P "+P
 nnoremap <leader>p "+p
+source ~/.vim_runtime/vimrcs/plugins_config.vim
 nnoremap <leader>P "+P
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -69,6 +70,9 @@ nnoremap <leader>P "+P
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Set 7 lines to the cursor - when moving vertically using j/k
 set so=7
+
+" useful for Gitgutter
+set signcolumn=yes
 
 " Display relative line number
 set number

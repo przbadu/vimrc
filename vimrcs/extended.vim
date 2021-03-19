@@ -35,10 +35,7 @@ if exists('+termguicolors')
     set termguicolors
 endif
 let g:gruvbox_invert_selection='0'
-set termguicolors
 colorscheme gruvbox
-" colorscheme peaksea
-" colorscheme nightfly
 set background=dark
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -149,6 +146,13 @@ map <leader>p :cp<cr>
 " Make sure that enter is never overriden in the quickfix window
 autocmd BufReadPost quickfix nnoremap <buffer> <CR> <CR>
 
+" <TAB>: completion.
+inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
+
+" Copy just the filename
+nmap <leader>cs :let @*=expand("%")<CR>
+" Copy the filename with path
+nmap <leader>cl :let @*=expand("%:p")<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Helper functions

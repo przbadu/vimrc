@@ -72,6 +72,8 @@ dispatch https://github.com/tpope/vim-dispatch
 vimux https://github.com/preservim/vimux
 vim-zoom https://github.com/dhruvasagar/vim-zoom
 vim-css-color https://github.com/ap/vim-css-color
+gruvbox https://github.com/gruvbox-community/gruvbox
+gruvbox-material https://github.com/sainnhe/gruvbox-material
 """.strip()
 
 GITHUB_ZIP = "%s/archive/master.zip"

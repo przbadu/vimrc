@@ -52,6 +52,17 @@ nmap <leader>w :w!<cr>
 " (useful for handling the permission-denied error)
 command! W execute 'w !sudo tee % > /dev/null' <bar> edit!
 
+" Copy to clipboard
+vnoremap <leader>y "+y
+nnoremap <leader>Y "+yg_
+nnoremap <leader>y "+y
+nnoremap <leader>yy "+yy
+
+" Paste from clipboard
+vnoremap <leader>p "+p
+nnoremap <leader>P "+P
+nnoremap <leader>p "+p
+nnoremap <leader>P "+P
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface

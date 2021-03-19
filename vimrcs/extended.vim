@@ -28,16 +28,18 @@ set guioptions-=l
 set guioptions-=L
 
 " Colorscheme
+let g:gruvbox_contrast_dark = 'hard'
 if exists('+termguicolors')
     let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
     let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
     set termguicolors
 endif
-
+let g:gruvbox_invert_selection='0'
 set termguicolors
-set background=dark
+colorscheme gruvbox
 " colorscheme peaksea
-colorscheme nightfly
+" colorscheme nightfly
+set background=dark
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Fast editing and reloading of vimrc configs
@@ -83,6 +85,11 @@ map ½ $
 cmap ½ $
 imap ½ $
 
+" Fold Unfold with F9
+inoremap <F9> <C-o>za
+nnoremap <F9> za
+onoremap <F9> <C-C>za
+vnoremap <F9> zf
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Parenthesis/bracket

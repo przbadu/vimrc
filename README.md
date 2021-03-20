@@ -91,7 +91,6 @@ I recommend reading the docs of these plugins to understand them better. Each pl
 * [lightline.vim](https://github.com/itchyny/lightline.vim): A light and configurable statusline/tabline for Vim
 * [NERD Tree](https://github.com/scrooloose/nerdtree): A tree explorer plugin for vim
 * [open_file_under_cursor.vim](https://github.com/amix/open_file_under_cursor.vim): Open file under cursor when pressing `gf`
-* [pathogen.vim](https://github.com/tpope/vim-pathogen): Manage your vim runtimepath 
 * [snipmate.vim](https://github.com/garbas/vim-snipmate): snipmate.vim aims to be a concise vim script that implements some of TextMate's snippets features in Vim
 * [ale](https://github.com/w0rp/ale): Syntax and lint checking for vim (ALE requires NeoVim >= 0.2.0 or Vim 8 with +timers +job +channel)
 * [vim-commentary](https://github.com/tpope/vim-commentary): Comment stuff out.  Use `gcc` to comment out a line (takes a count), `gc` to comment out the target of a motion. `gcu` uncomments a set of adjacent commented lines.
@@ -140,12 +139,6 @@ After you have installed the setup, you can create **~/.vim_runtime/my_configs.v
 	~/.vim_runtime (master)> cat my_configs.vim
 	map <leader>ct :cd ~/Desktop/Todoist/todoist<cr>
 	map <leader>cw :cd ~/Desktop/Wedoist/wedoist<cr> 
-
-You can also install your plugins, for instance, via pathogen you can install [vim-rails](https://github.com/tpope/vim-rails):
-
-	cd ~/.vim_runtime
-	git clone git://github.com/tpope/vim-rails.git my_plugins/vim-rails
-
 
 ## Key Mappings
 

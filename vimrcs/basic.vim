@@ -1,13 +1,13 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Maintainer: 
-"       Amir Salihefendic — @amix3k
+"       Pushpa Raj Badu
 "
 " Awesome_version:
 "       Get this config, nice color schemes and lots of plugins!
 "
 "       Install the awesome version from:
 "
-"           https://github.com/amix/vimrc
+"           https://github.com/przbadu/vimrc
 "
 " Sections:
 "    -> General
@@ -62,7 +62,6 @@ nnoremap <leader>yy "+yy
 vnoremap <leader>p "+p
 nnoremap <leader>P "+P
 nnoremap <leader>p "+p
-source ~/.vim_runtime/vimrcs/plugins_config.vim
 nnoremap <leader>P "+P
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

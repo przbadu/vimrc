@@ -6,4 +6,5 @@ sources_non_forked/tlib/doc/tags
 sources_non_forked/ctrlp.vim/doc/tags*
 my_plugins/
 tags
-.DS_Store
+.DS_Storeplugged
+plugged/

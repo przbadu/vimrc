@@ -1,75 +1,3 @@
-" " manage plugins with plug
-" call plug#begin('~/.vim_runtime/plugged')
-" Plug 'mileszs/ack.vim'
-" Plug 'w0rp/ale'
-" Plug 'jiangmiao/auto-pairs'
-" Plug 'jlanzarotta/bufexplorer'
-" Plug 'neoclide/coc.nvim'
-" Plug 'kien/ctrlp.vim'
-" Plug 'mattn/emmet-vim'
-" Plug 'junegunn/goyo.vim'
-" Plug 'gruvbox-community/gruvbox'
-" Plug 'sainnhe/gruvbox-material'
-" Plug 'itchyny/lightline.vim'
-" Plug 'maximbaz/lightline-ale'
-" Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-" Plug 'godlygeek/tabular'
-" Plug 'majutsushi/tagbar'
-" Plug 'tomtom/tlib_vim' " confirm we need it
-" Plug 'leafgarland/typescript-vim'
-" Plug 'tpope/vim-abolish'
-" Plug 'marcweber/vim-addon-mw-utils'
-" Plug 'tpope/vim-bundler'
-" Plug 'kchmck/vim-coffee-script'
-" Plug 'tpope/vim-commentary'
-" Plug 'ap/vim-css-color':
-" Plug 'ryanoasis/vim-devicons'
-" Plug 'tpope/vim-endwise'
-" Plug 'terryma/vim-expand-region'
-" Plug 'nvie/vim-flke8'
-" Plug 'mattn/vim-gist'
-" Plug 'airblade/vim-gitgutter'
-" Plug 'vim-indent-object'
-" Plug 'pangloss/vim-javascript'
-" Plug 'farmergreg/vim-lastplace'
-" Plug 'machakann/vim-highlightedyank'
-" Plug 'plasticboy/vim-markdown'
-" Plug 'sheerun/vim-polyglot'
-" Plug 'tpope/vim-fugitive'
-" Plug 'tpope/vim-rails'
-" Plug 'tpope/vim-rake'
-" Plug 'tpope/vim-repeat'
-" Plug 'tpope/vim-rhubarb'
-" Plug 'vim-ruby/vim-ruby'
-" Plug 'honza/vim-snippets'
-" Plug 'tpope/vim-surround'
-" Plug 'janko-m/vim-test'
-" Plug 'maxbrunsfeld/vim-yankstack'
-" Plug 'amix/vim-zenroom2'
-" Plug 'dhruvasagar/vim-zoom'
-" Plug 'preservim/vimux'
-" Plug '907th/vim-auto-save'
-
-" " Initialize plugin system
-" call plug#end()
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Important:
-"       This requires that you install https://github.com/amix/vimrc !
-"
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-
-""""""""""""""""""""""""""""""
-" => Load pathogen paths
-""""""""""""""""""""""""""""""
-let s:vim_runtime = expand('<sfile>:p:h')."/.."
-call pathogen#infect(s:vim_runtime.'/sources_forked/{}')
-call pathogen#infect(s:vim_runtime.'/sources_non_forked/{}')
-call pathogen#infect(s:vim_runtime.'/my_plugins/{}')
-call pathogen#helptags()
-
-
 """"""""""""""""""""""""""""""
 " => bufExplorer plugin
 """"""""""""""""""""""""""""""
@@ -98,7 +26,7 @@ nmap <C-n> <Plug>yankstack_substitute_newer_paste
 """"""""""""""""""""""""""""""
 " => CTRL-P
 """"""""""""""""""""""""""""""
-call ctrlp_bdelete#init()
+" call ctrlp_bdelete#init()
 let g:ctrlp_working_path_mode = 0
 
 " Quickly find and open a file in the current working directory

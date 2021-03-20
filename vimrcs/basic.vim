@@ -74,6 +74,9 @@ set so=7
 " useful for Gitgutter
 set signcolumn=yes
 
+" nowrap
+set nowrap
+
 " Display relative line number
 set number
 set relativenumber
@@ -201,8 +204,8 @@ set expandtab
 set smarttab
 
 " 1 tab == 4 spaces
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
 
 " Linebreak on 500 characters
 set lbr

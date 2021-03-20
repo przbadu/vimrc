@@ -4,15 +4,15 @@ Plug 'mileszs/ack.vim'
 Plug 'w0rp/ale'
 Plug 'jiangmiao/auto-pairs'
 Plug 'jlanzarotta/bufexplorer'
-Plug 'neoclide/coc.nvim'
-Plug 'kien/ctrlp.vim'
+" Plug 'neoclide/coc.nvim'
+" Plug 'kien/ctrlp.vim'
 Plug 'mattn/emmet-vim'
 Plug 'junegunn/goyo.vim'
 Plug 'gruvbox-community/gruvbox'
 Plug 'sainnhe/gruvbox-material'
 Plug 'itchyny/lightline.vim'
 Plug 'maximbaz/lightline-ale'
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'preservim/nerdtree'
 Plug 'godlygeek/tabular'
 Plug 'majutsushi/tagbar'
 Plug 'tomtom/tlib_vim' " confirm we need it
@@ -28,10 +28,12 @@ Plug 'tpope/vim-endwise'
 Plug 'terryma/vim-expand-region'
 Plug 'mattn/vim-gist'
 Plug 'airblade/vim-gitgutter'
+Plug 'machakann/vim-highlightedyank'
+Plug 'kmurph73/vim_html_to_haml'
 Plug 'michaeljsmith/vim-indent-object'
+Plug 'mhinz/vim-startify'
 Plug 'pangloss/vim-javascript'
 Plug 'farmergreg/vim-lastplace'
-Plug 'machakann/vim-highlightedyank'
 Plug 'plasticboy/vim-markdown'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-fugitive'
@@ -48,6 +50,15 @@ Plug 'amix/vim-zenroom2'
 Plug 'dhruvasagar/vim-zoom'
 Plug 'preservim/vimux'
 Plug '907th/vim-auto-save'
+Plug 'vimwiki/vimwiki'
 
-" Initialize plugin system
+" Fuzzy Find
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'airblade/vim-rooter'
+
+" Inbuild LSP
+Plug 'neovim/nvim-lspconfig'
+
+"  Initialize plugin system
 call plug#end()

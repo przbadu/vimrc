@@ -116,7 +116,7 @@ let g:lightline = {
 set diffopt+=vertical " always open diff split in vertical window
 nmap <leader>gf :diffget //2<CR>
 nmap <leader>gj :diffget //3<CR>
-nmap <leader>gs :G<CR>
+nmap <leader>gs :G \| :Goyo<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Vimroom

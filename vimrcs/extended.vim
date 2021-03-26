@@ -154,6 +154,9 @@ nmap <leader>cs :let @*=expand("%")<CR>
 " Copy the filename with path
 nmap <leader>cl :let @*=expand("%:p")<CR>
 
+" use jj to esc
+imap jj <Esc>
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Helper functions
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

@@ -73,9 +73,6 @@ set so=7
 " useful for Gitgutter
 set signcolumn=yes
 
-" nowrap
-set nowrap
-
 " Display relative line number
 set number
 set relativenumber
@@ -212,7 +209,9 @@ set tw=500
 
 set ai "Auto indent
 set si "Smart indent
-set wrap "Wrap lines
+" set wrap "Wrap lines
+set nowrap " nowrap
+
 
 
 """"""""""""""""""""""""""""""

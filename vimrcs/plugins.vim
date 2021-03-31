@@ -50,6 +50,8 @@ Plug 'preservim/vimux'
 Plug '907th/vim-auto-save'
 Plug 'vimwiki/vimwiki'
 Plug 'liuchengxu/vim-which-key', { 'on': ['WhichKey', 'WhichKey!'] }
+Plug 'Yggdroot/indentLine'
+Plug 'mattn/webapi-vim'
 
 """"""""""""""""""""""""""""""""""""""""""""""""
 " NeoVim specific plugins

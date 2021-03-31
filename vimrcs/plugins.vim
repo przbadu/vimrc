@@ -29,7 +29,6 @@ Plug 'airblade/vim-gitgutter'
 Plug 'machakann/vim-highlightedyank'
 Plug 'kmurph73/vim_html_to_haml'
 Plug 'michaeljsmith/vim-indent-object'
-Plug 'mhinz/vim-startify'
 Plug 'pangloss/vim-javascript'
 Plug 'farmergreg/vim-lastplace'
 Plug 'plasticboy/vim-markdown'
@@ -49,7 +48,7 @@ Plug 'dhruvasagar/vim-zoom'
 Plug 'preservim/vimux'
 Plug '907th/vim-auto-save'
 Plug 'vimwiki/vimwiki'
-Plug 'liuchengxu/vim-which-key', { 'on': ['WhichKey', 'WhichKey!'] }
+Plug 'liuchengxu/vim-which-key'
 Plug 'Yggdroot/indentLine'
 Plug 'mattn/webapi-vim'
 
@@ -60,6 +59,15 @@ Plug 'mattn/webapi-vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
+
+" Testing these plugins
+Plug 'kyazdani42/nvim-web-devicons'
+Plug 'romgrk/barbar.nvim'
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+" Plug 'nvim-telescope/telescope-media-files.nvim'
+Plug 'glepnir/dashboard-nvim'
 
 "  Initialize plugin system
 call plug#end()

@@ -128,11 +128,6 @@ au FileType javascript inoremap <buffer> $r return
 au FileType javascript inoremap <buffer> $f // --- PH<esc>FP2xi
 
 """"""""""""""""""""""""""""""
-" => bufExplorer plugin
-""""""""""""""""""""""""""""""
-map <leader>o :BufExplorer<cr>
-
-""""""""""""""""""""""""""""""
 " => YankStack
 """"""""""""""""""""""""""""""
 nmap <C-p> <Plug>yankstack_substitute_older_paste
@@ -288,16 +283,29 @@ nnoremap <silent>    <A-8> :BufferGoto 8<CR>
 nnoremap <silent>    <A-9> :BufferLast<CR>
 " Close buffer
 nnoremap <silent>    <A-c> :BufferClose<CR>
+nnoremap <silent> <leader>d :GitGutterToggle<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => FzF
+" => FzF, and Telescope mappings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-map <C-f> :Files<CR>
+" map <C-p> :Files<CR>
+" requires ctags -R
+nnoremap <leader>t :BTags<CR>
 nnoremap <leader>bl :Buffers<CR>
-nnoremap <leader>g :Rg<CR>
-nnoremap <leader>t :Tags<CR>
+nnoremap <leader>rg :Rg<CR>
 nnoremap <leader>m :Marks<CR>
-nnoremap <silent> <leader>d :GitGutterToggle<cr>
+nnoremap <leader>ct :Colors<cr>
+nnoremap <leader>gf :GFiles?<cr>
+nnoremap <leader>gc :BCommits<cr>
+
+" configuration
+" I like Telescope over fzf file explorer
+map <C-p> <cmd>Telescope find_files<cr> 
+nnoremap <leader>ff <cmd>Telescope find_files<cr> 
+nnoremap <A-f> <cmd>Telescope live_grep<cr>
+nnoremap <leader>ft <cmd>Telescope live_grep<cr>
+nnoremap <leader>fb <cmd>Telescope buffers<cr>
+nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => WhichKey

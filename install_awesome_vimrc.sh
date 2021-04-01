@@ -12,11 +12,13 @@ source ~/.vim_runtime/vimrcs/basic.vim
 source ~/.vim_runtime/vimrcs/filetypes.vim
 " Extend plugin configurations
 source ~/.vim_runtime/vimrcs/plugins/default-config.vim
-source ~/.vim_runtime/vimrcs/plugins/coc-config.vim
 source ~/.vim_runtime/vimrcs/plugins/fzf-config.vim
 source ~/.vim_runtime/vimrcs/plugins/gitgutter.vim
 source ~/.vim_runtime/vimrcs/plugins/indent-line.vim
 source ~/.vim_runtime/vimrcs/plugins/whichkey-config.vim
+source ~/.vim_runtime/vimrcs/plugins/dashboard-config.vim
+" Mappings
+source ~/.vim_runtime/vimrcs/mappings.vim
 " Extended configurations
 source ~/.vim_runtime/vimrcs/extended.vim
 

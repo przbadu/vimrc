@@ -66,8 +66,9 @@ Plug 'romgrk/barbar.nvim'
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
-" Plug 'nvim-telescope/telescope-media-files.nvim'
+Plug 'nvim-telescope/telescope-media-files.nvim'
 Plug 'glepnir/dashboard-nvim'
+Plug 'ChristianChiarulli/far.vim'
 
 "  Initialize plugin system
 call plug#end()

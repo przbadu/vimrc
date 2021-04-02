@@ -2,7 +2,12 @@
 let g:which_key_timeout = 100
 
 let g:which_key_display_names = {'<CR>': '↵', '<TAB>': '⇆'}
-let g:which_key_map =  {}
+let g:which_key_map =  {
+\ 'name' : '+find & replace' ,
+\ 'b' : [':Farr --source=vimgrep'    , 'buffer'],
+\ 'p' : [':Farr --source=rgnvim'     , 'project'],
+\ }
+
 let g:which_key_sep = '→'
 
 " Not a fan of floating windows for this

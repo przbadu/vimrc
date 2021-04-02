@@ -16,6 +16,8 @@ source ~/.vim_runtime/vimrcs/plugins/default-config.vim
 source ~/.vim_runtime/vimrcs/plugins/fzf-config.vim
 source ~/.vim_runtime/vimrcs/plugins/gitgutter.vim
 source ~/.vim_runtime/vimrcs/plugins/indent-line.vim
+source ~/.vim_runtime/vimrcs/plugins/find_and_replace.vim
+source ~/.vim_runtime/vimrcs/plugins/telescope.lua
 source ~/.vim_runtime/vimrcs/plugins/whichkey-config.vim
 source ~/.vim_runtime/vimrcs/plugins/dashboard-config.vim
 " Mappings

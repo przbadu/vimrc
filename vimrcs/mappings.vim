@@ -297,13 +297,14 @@ nnoremap <leader>m :Marks<CR>
 nnoremap <leader>ct :Colors<cr>
 nnoremap <leader>gf :GFiles?<cr>
 nnoremap <leader>gc :BCommits<cr>
+nnoremap <leader>ft :Filetypes<cr>
 
 " configuration
 " I like Telescope over fzf file explorer
 map <C-p> <cmd>Telescope find_files<cr> 
 nnoremap <leader>ff <cmd>Telescope find_files<cr> 
 nnoremap <A-f> <cmd>Telescope live_grep<cr>
-nnoremap <leader>ft <cmd>Telescope live_grep<cr>
+nnoremap <leader>fs <cmd>Telescope live_grep<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 

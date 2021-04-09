@@ -84,6 +84,7 @@ if has("mac") || has("macunix")
   vmap <D-j> <M-j>
   vmap <D-k> <M-k>
 endif
+nmap <M-w> :set wrap!<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Spell checking
@@ -150,8 +151,8 @@ au FileType mako vmap Si S"i${ _(<esc>2f"a) }<esc>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Fugitive
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-nmap <leader>gf :diffget //2<CR>
-nmap <leader>gj :diffget //3<CR>
+nmap <leader>gj :diffget //2<CR>
+nmap <leader>gk :diffget //3<CR>
 nmap <leader>gs :G \| :Goyo<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -301,6 +302,7 @@ nnoremap <leader>ft :Filetypes<cr>
 
 " configuration
 " I like Telescope over fzf file explorer
+map <C-f> <cmd>Telescope find_files<cr> 
 map <C-p> <cmd>Telescope find_files<cr> 
 nnoremap <leader>ff <cmd>Telescope find_files<cr> 
 nnoremap <A-f> <cmd>Telescope live_grep<cr>

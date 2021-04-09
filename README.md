@@ -21,6 +21,17 @@ The awesome version includes a lot of great plugins, configurations and color sc
 	git clone --depth=1 https://github.com/przbadu/vimrc.git ~/.vim_runtime
 	sh ~/.vim_runtime/install_awesome_vimrc.sh
 	
+## Setting up terminal
+
+- Install [alacritty](https://github.com/alacritty/alacritty)
+- And run below script to setup alacritty
+
+```sh
+$ mkdir ~/.config/alacritty
+$ ln -s ~/.vim_runtime/alacritty/alacritty.yml ~/config/alacritty/alacritty.yml
+```
+Also make sure you install [nerd-fonts](https://github.com/ryanoasis/nerd-fonts)
+	
 ### Install for multiple users
 To install for multiple users, the repository needs to be cloned to a location accessible for all the intended users.
 
@@ -77,7 +88,6 @@ I recommend reading the docs of these plugins to understand them better. Each pl
 * [vim-irblack](https://github.com/wgibbs/vim-irblack)
 * [mayansmoke](https://github.com/vim-scripts/mayansmoke)
 * [vim-pyte](https://github.com/therubymug/vim-pyte)
-
 
 ## Included modes
 

@@ -20,6 +20,13 @@ The awesome version includes a lot of great plugins, configurations and color sc
 
 	git clone --depth=1 https://github.com/przbadu/vimrc.git ~/.vim_runtime
 	sh ~/.vim_runtime/install_awesome_vimrc.sh
+
+## Extra step to setup neovim
+
+```sh
+mkdir ~/.config/nvim
+ln -s ~/.vim_runtime/nvim/init.vim ~/.config/nvim/init.vim
+```
 	
 ## Setting up terminal
 
@@ -27,8 +34,8 @@ The awesome version includes a lot of great plugins, configurations and color sc
 - And run below script to setup alacritty
 
 ```sh
-$ mkdir ~/.config/alacritty
-$ ln -s ~/.vim_runtime/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
+mkdir ~/.config/alacritty
+ln -s ~/.vim_runtime/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
 ```
 Also make sure you install [nerd-fonts](https://github.com/ryanoasis/nerd-fonts)
 	

@@ -28,7 +28,7 @@ The awesome version includes a lot of great plugins, configurations and color sc
 
 ```sh
 $ mkdir ~/.config/alacritty
-$ ln -s ~/.vim_runtime/alacritty/alacritty.yml ~/config/alacritty/alacritty.yml
+$ ln -s ~/.vim_runtime/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
 ```
 Also make sure you install [nerd-fonts](https://github.com/ryanoasis/nerd-fonts)
 	
